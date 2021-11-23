@@ -43,16 +43,13 @@ function App() {
             <Button color="inherit" component={Link} to="/">
               Home
             </Button>
-            <Button color="inherit" component={Link} to="/">
-              profile
-            </Button>
-            <Button color="inherit" component={Link} to="/">
+            <Button color="inherit" component={Link} to="/recipes">
               Recipes
             </Button>
-            <Button color="inherit" component={Link} to="/">
+            <Button color="inherit" component={Link} to="/chats">
               Chats
             </Button>
-            <Button color="inherit" component={Link} to="/">
+            <Button color="inherit" component={Link} to="/favorite">
             favorite
             </Button>
           </div>

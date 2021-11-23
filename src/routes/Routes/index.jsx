@@ -13,6 +13,7 @@ import {
   Container,
   Grid,
 } from "@material-ui/core";
+import Recipes from "../../pages/Recipes";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,6 +33,15 @@ function Routes() {
 
       <PrivateRoute path="/profile">
         <Profile />
+      </PrivateRoute>
+      <PrivateRoute path="/favorite">
+        <Favorite />
+      </PrivateRoute>
+      <PrivateRoute path="/chats">
+        <Chats />
+      </PrivateRoute>
+      <PrivateRoute path="/recipes">
+        <Recipes />
       </PrivateRoute>
 
       <GuestRoute path="/login">
