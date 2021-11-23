@@ -50,7 +50,7 @@ function App() {
               Chats
             </Button>
             <Button color="inherit" component={Link} to="/favorite">
-            favorite
+             Favorite
             </Button>
           </div>
           {auth.isLoaded &&

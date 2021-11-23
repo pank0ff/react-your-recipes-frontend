@@ -3,6 +3,8 @@ import Home from "../../pages/Home";
 import Login from "../../pages/Login";
 import Registration from "../../pages/Registration";
 import Profile from "../../pages/Profile";
+import Chats from "../../pages/Chats";
+import Favorite from "../../pages/Favorite";
 import NotFound from "../../pages/NotFound";
 import useAuth from "../../hooks/useAuth";
 import PrivateRoute from "../components/PrivateRoute";
