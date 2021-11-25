@@ -1,0 +1,17 @@
+.searchForm {
+    color: blue;
+    width: 500px;
+
+    height: 500px ;
+ };
+
+ form{
+   width: 500px;
+   height: 200px ; 
+ }
+input{
+   font-size: large;
+   margin-left: 30px;
+   width: 500px;
+   padding: 5px;
+     }
