@@ -1,4 +1,6 @@
+import React from "react";
 import { Grid, makeStyles, Container, Typography } from "@material-ui/core";
+import Messenger from '../Chats/Messenger';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -10,15 +12,9 @@ function Chats() {
   const classes = useStyles();
 
   return (
-    <Container maxWidth="sm" className={classes.root}>
-      <Grid container spacing={3}>
-        <Grid item xs={12}>
-          <Typography variant="h2" gutterBottom>
-          Chats
-          </Typography>
-        </Grid>
-      </Grid>
-    </Container>
+    <div>
+    <Messenger />
+    </div>
   );
 }
 
